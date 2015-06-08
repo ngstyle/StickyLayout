@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="id_stickylayout_topview" type="id"/>
+    <item name="id_stickylayout_viewpager" type="id"/>
+    <item name="id_stickylayout_indicator" type="id"/>
+    <item name="id_stickylayout_innerscrollview" type="id"/>
+
+</resources>
