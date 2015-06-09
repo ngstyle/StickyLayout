@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 自定义MyRatingBar -->
+    <declare-styleable name="MyRatingBar">
+        <attr name="ratingNum" format="integer" />
+        <attr name="ratingDrawableFull" format="reference" />
+        <attr name="ratingDrawableHalf" format="reference" />
+        <attr name="ratingDrawableEmpty" format="reference" />
+        <!-- 初始等级 -->
+        <attr name="rating" format="float" />
+        <attr name="isIndicator" format="boolean" />
+        <attr name="pentagramWidth" format="dimension" />
+        <attr name="pentagramHeight" format="dimension" />
+    </declare-styleable>
+</resources>

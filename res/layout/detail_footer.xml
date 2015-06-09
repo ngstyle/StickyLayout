@@ -9,7 +9,7 @@
         android:id="@+id/rl_send"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/white"
+        android:background="@android:color/white"
         android:paddingBottom="3dp" >
 
         <!-- android:layout_height="@dimen/main_ad_height" -->
@@ -25,33 +25,31 @@
             android:layout_height="30dp"
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
-            android:layout_marginLeft="@dimen/tiny_padding"
-            android:layout_marginRight="@dimen/tiny_padding"
-            android:layout_marginTop="@dimen/tiny_padding"
-            android:background="@drawable/btn_publish_click" />
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp" />
 
         <EditText
             android:id="@+id/et_body"
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:layout_centerVertical="true"
-            android:layout_marginLeft="@dimen/tiny_padding"
-            android:layout_marginTop="@dimen/tiny_padding"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
             android:layout_toLeftOf="@id/btn_submit"
-            android:background="@drawable/edit_search_bg"
             android:gravity="center_vertical"
             android:hint="说点什么..."
             android:maxLines="4"
-            android:padding="@dimen/tiny_padding"
+            android:padding="5dp"
             android:textColor="#737373"
-            android:textSize="@dimen/main_text_size_small" />
+            android:textSize="12sp" />
     </RelativeLayout>
 
     <RelativeLayout
         android:id="@+id/rl_download"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/white" >
+        android:background="@android:color/white" >
 
         <View
             android:layout_width="match_parent"
@@ -95,8 +93,8 @@
             android:layout_toRightOf="@id/rl_collect"
             android:background="@color/main_color"
             android:text="下载"
-            android:textColor="@color/white"
-            android:textSize="@dimen/main_text_size_small" />
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
     </RelativeLayout>
 
 </RelativeLayout>

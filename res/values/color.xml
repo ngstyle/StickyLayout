@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="main_color">#ff7800</color>
+    <color name="item_main_text_color">#737373</color>
+    <color name="background_tab_pressed">#6633B5E5</color>
+</resources>

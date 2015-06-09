@@ -33,13 +33,13 @@ import com.nineoldandroids.animation.Animator;
 import com.nineoldandroids.animation.AnimatorListenerAdapter;
 import com.nineoldandroids.animation.ObjectAnimator;
 import com.nineoldandroids.view.ViewHelper;
+import com.touch18.finaldemo.util.ImageLoaderUtil;
+import com.touch18.finaldemo.util.UiUtils;
+import com.touch18.finaldemo.view.PagerSlidingTabStrip;
 import com.touch18.finaldemo.view.StickyLayout;
 import com.touch18.finaldemo.view.StickyLayout.StickyState;
 import com.touch18.finaldemo.view.StickyLayout.TriggerZoomListener;
 import com.touch18.finaldemo.view.StickyLayout.onScrollChangedListener;
-import com.touch18.lib.util.ImageLoaderUtil;
-import com.touch18.lib.util.UiUtils;
-import com.touch18.lib.widget.PagerSlidingTabStrip;
 
 
 public class MainActivity extends FragmentActivity {

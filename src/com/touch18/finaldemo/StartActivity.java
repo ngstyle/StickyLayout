@@ -1,12 +1,12 @@
 package com.touch18.finaldemo;
 
+import com.touch18.finaldemo.util.InitUtils;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.view.View;
 import android.view.Window;
-
-import com.touch18.lib.util.InitUtils;
 
 public class StartActivity extends FragmentActivity {
 	

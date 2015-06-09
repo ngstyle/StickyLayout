@@ -12,22 +12,21 @@
 
         <include layout="@layout/stickylayout_topview" />
 
-        <com.touch18.lib.widget.PagerSlidingTabStrip
+        <com.touch18.finaldemo.view.PagerSlidingTabStrip
             android:id="@id/id_stickylayout_indicator"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:background="@color/white"
+            android:background="@android:color/white"
             android:textColor="@drawable/tab_indicator_color"
-            android:textSize="@dimen/main_text_size_normal"
-            app:pstsDividerColor="@color/transparent"
-            app:pstsIndicatorColor="@color/main_tab_color"
+            android:textSize="14sp"
+            app:pstsDividerColor="@android:color/transparent"
+            app:pstsIndicatorColor="@color/main_color"
             app:pstsIndicatorHeight="2.5dp"
             app:pstsShouldExpand="true"
-            app:pstsTabBackground="@color/transparent"
-            app:pstsTabPaddingLeftRight="@dimen/tiny_padding"
-            app:pstsUnderlineColor="@color/underline_color"
-            app:pstsUnderlineHeight="1px" >
-        </com.touch18.lib.widget.PagerSlidingTabStrip>
+            app:pstsTabBackground="@android:color/transparent"
+            app:pstsTabPaddingLeftRight="5dp"
+            app:pstsUnderlineColor="@color/main_color"
+            app:pstsUnderlineHeight="1px" />
 
         <android.support.v4.view.ViewPager
             android:id="@id/id_stickylayout_viewpager"

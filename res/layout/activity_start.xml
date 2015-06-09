@@ -9,21 +9,21 @@
         android:id="@+id/btn_no_animation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/normal_padding"
-        android:layout_marginLeft="@dimen/normal_padding"
-        android:layout_marginRight="@dimen/normal_padding"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:onClick="jump"
-        android:padding="@dimen/tiny_padding"
+        android:padding="5dp"
         android:text="不用旋转" />
 
     <Button
         android:id="@+id/btn_animation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="@dimen/normal_padding"
-        android:layout_marginRight="@dimen/normal_padding"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:onClick="jump"
-        android:padding="@dimen/tiny_padding"
+        android:padding="5dp"
         android:text="旋转动画" />
 
 </LinearLayout>

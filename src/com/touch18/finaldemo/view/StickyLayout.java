@@ -20,7 +20,8 @@ import android.widget.OverScroller;
 import android.widget.ScrollView;
 
 import com.touch18.finaldemo.R;
-import com.touch18.lib.util.UiUtils;
+import com.touch18.finaldemo.util.UiUtils;
+
 
 public class StickyLayout extends LinearLayout {
 

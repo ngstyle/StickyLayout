@@ -61,9 +61,9 @@
                     android:singleLine="true"
                     android:text="Google+"
                     android:textColor="#373737"
-                    android:textSize="@dimen/main_text_size_large" />
+                    android:textSize="18sp" />
 
-                <com.touch18.lib.widget.MyRatingBar
+                <com.touch18.finaldemo.view.MyRatingBar
                     android:id="@+id/ratingBar"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -79,7 +79,7 @@
                     android:layout_height="wrap_content"
                     android:text="社交  12.8M"
                     android:textColor="#737373"
-                    android:textSize="@dimen/main_text_size_small" />
+                    android:textSize="12sp" />
             </LinearLayout>
 
             <TextView
@@ -87,7 +87,7 @@
                 android:layout_width="72dp"
                 android:layout_height="72dp"
                 android:layout_gravity="center_vertical"
-                android:layout_marginRight="@dimen/normal_padding"
+                android:layout_marginRight="10dp"
                 android:background="@drawable/bg_score"
                 android:gravity="center"
                 android:textColor="#ccff0000"
@@ -113,7 +113,7 @@
     <RelativeLayout
         android:id="@+id/title_bar"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/header_height"
+        android:layout_height="45dp"
         android:clickable="true" >
 
         <RelativeLayout
@@ -122,8 +122,8 @@
             android:layout_height="match_parent"
             android:background="@drawable/selector_actionbar_acttion_bg"
             android:clickable="true"
-            android:paddingLeft="@dimen/large_padding"
-            android:paddingRight="@dimen/large_padding" >
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp" >
 
             <ImageView
                 android:layout_width="24dp"
@@ -139,8 +139,8 @@
             android:layout_alignParentRight="true"
             android:background="@drawable/selector_actionbar_acttion_bg"
             android:clickable="true"
-            android:paddingLeft="@dimen/large_padding"
-            android:paddingRight="@dimen/large_padding" >
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp" >
 
             <ImageView
                 android:layout_width="24dp"
@@ -156,8 +156,8 @@
             android:layout_toLeftOf="@id/rl_more"
             android:background="@drawable/selector_actionbar_acttion_bg"
             android:clickable="true"
-            android:paddingLeft="@dimen/large_padding"
-            android:paddingRight="@dimen/large_padding" >
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp" >
 
             <ImageView
                 android:layout_width="24dp"
